@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2022-02-09T15:38:06.687Z" agent="5.0 (Windows)" etag="zswCj8IbRhA2h_cqh1mE" version="16.5.4" type="github">
+  <diagram id="_ChgFXxC5_TCmCCFpOYv" name="Page-1">
+    <mxGraphModel dx="2197" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-5" value="Loriot" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="525" width="250" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-1" value="Cubecell node X" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="210" width="350" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-2" value="GPS" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="250" y="250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" parent="1" source="wPDVCnVRqkpxuNG-lH0y-3" target="wPDVCnVRqkpxuNG-lH0y-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="320" />
+              <mxPoint x="560" y="320" />
+              <mxPoint x="560" y="490" />
+              <mxPoint x="260" y="490" />
+              <mxPoint x="260" y="585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-3" value="LoRaWAN" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="250" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-4" value="Motion sensor" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="70" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-6" value="LoRaWAN&#xa;bridge&#xa;server&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="314" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-7" value="MQTT" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="430" y="570" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-8" value="Server (Amazon EC2 Linux)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
+          <mxGeometry x="355" y="710" width="465" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-9" value="Mosquitto&#xa;MQTT broker&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="380" y="750" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-10" value="Telegraf&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="440" y="840" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-11" value="InlfluxDB&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="530" y="910" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-12" value="Grafana&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1000" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;Lora&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="492.5" y="250" width="190" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
