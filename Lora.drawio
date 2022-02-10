@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T15:38:06.687Z" agent="5.0 (Windows)" etag="zswCj8IbRhA2h_cqh1mE" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T22:12:11.538Z" agent="5.0 (Windows)" etag="SQ3ozfXIMuqETX0pos40" version="16.5.4" type="github">
   <diagram id="_ChgFXxC5_TCmCCFpOYv" name="Page-1">
-    <mxGraphModel dx="2197" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,22 +37,53 @@
           <mxGeometry x="430" y="570" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wPDVCnVRqkpxuNG-lH0y-8" value="Server (Amazon EC2 Linux)" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" parent="1" vertex="1">
-          <mxGeometry x="355" y="710" width="465" height="420" as="geometry" />
+          <mxGeometry x="685" y="710" width="465" height="420" as="geometry" />
         </mxCell>
         <mxCell id="wPDVCnVRqkpxuNG-lH0y-9" value="Mosquitto&#xa;MQTT broker&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="380" y="750" width="100" height="50" as="geometry" />
+          <mxGeometry x="710" y="750" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wPDVCnVRqkpxuNG-lH0y-10" value="Telegraf&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="440" y="840" width="100" height="50" as="geometry" />
+          <mxGeometry x="770" y="840" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wPDVCnVRqkpxuNG-lH0y-11" value="InlfluxDB&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="530" y="910" width="100" height="50" as="geometry" />
+          <mxGeometry x="860" y="910" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wPDVCnVRqkpxuNG-lH0y-12" value="Grafana&#xa;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1000" width="100" height="50" as="geometry" />
+          <mxGeometry x="960" y="1000" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wPDVCnVRqkpxuNG-lH0y-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;Lora&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field1: Type&lt;br&gt;+ field2: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method1(Type): Type&lt;br&gt;+ method2(Type, Type): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="492.5" y="250" width="190" height="140" as="geometry" />
+        <mxCell id="wPDVCnVRqkpxuNG-lH0y-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;Lora&lt;/i&gt;&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div class=&quot;container&quot; title=&quot;Hint: double-click to select code&quot;&gt;&lt;div class=&quot;line number1 index0 alt2&quot;&gt;&lt;code class=&quot;js plain&quot;&gt;{&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number2 index1 alt1&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;cmd&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; : &lt;/code&gt;&lt;code class=&quot;js string&quot;&gt;&#39;tx&#39;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// must always have the value &#39;tx&#39;&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number3 index2 alt2&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;EUI&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; : string;&amp;nbsp; &lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// device EUI, 16 hex digits (without dashes)&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number4 index3 alt1&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;port&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; : number;&amp;nbsp; &lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// port to be used (1..223)&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number5 index4 alt2&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;confirmed? : boolean; &lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// NEW!&amp;nbsp; (optional) request confirmation (ACK) from end-device&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number6 index5 alt1&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot;&gt;data&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; : string;&amp;nbsp; &lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// data payload (to be encrypted by our server)&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number7 index6 alt2&quot;&gt;&lt;code class=&quot;js spaces&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js comments&quot;&gt;// if no APPSKEY is assigned to device, this will return an error&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number8 index7 alt1&quot;&gt;&lt;code class=&quot;js plain&quot;&gt;}&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number8 index7 alt1&quot;&gt;&lt;code class=&quot;js plain&quot;&gt;https://docs.loriot.io/display/LNS/Downlink+Data+Message&lt;br&gt;&lt;/code&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="492.5" y="250" width="657.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="t4Harnno5FFBYF8TX8AU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="wPDVCnVRqkpxuNG-lH0y-7" target="wPDVCnVRqkpxuNG-lH0y-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="605" />
+              <mxPoint x="420" y="720" />
+              <mxPoint x="640" y="720" />
+              <mxPoint x="640" y="765" />
+            </Array>
+            <mxPoint x="20" y="635" as="sourcePoint" />
+            <mxPoint x="83.99999999999977" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4Harnno5FFBYF8TX8AU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="wPDVCnVRqkpxuNG-lH0y-9" target="wPDVCnVRqkpxuNG-lH0y-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="800" as="sourcePoint" />
+            <mxPoint x="630" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4Harnno5FFBYF8TX8AU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=35;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="wPDVCnVRqkpxuNG-lH0y-10" target="wPDVCnVRqkpxuNG-lH0y-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="890" as="sourcePoint" />
+            <mxPoint x="750" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="875" />
+              <mxPoint x="540" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4Harnno5FFBYF8TX8AU-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Telegraf json_v2 parser&lt;br&gt;&lt;b&gt;Interface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div class=&quot;container&quot; title=&quot;Hint: double-click to select code&quot;&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;cmd&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;EUI&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;port&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;ackRequested&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;msgType&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.tag]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;offline&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;bat&quot;`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `type = &quot;float&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;seqdn&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;seqno&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;freq&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;data&quot;`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `type = &quot;string&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;`&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; path = &quot;fcnt&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;seqq&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;gweui&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;sf&quot;`&lt;br&gt;`[[inputs.mqtt_consumer.json_v2.field]]`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; `path = &quot;toa&quot;`&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="492.5" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
